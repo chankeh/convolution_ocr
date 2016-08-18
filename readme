@@ -1,0 +1,4 @@
+0.安装tensorflow    http://wiki.jikexueyuan.com/project/tensorflow-zh/get_started/os_setup.html
+1.使用汉字代码生成的是图片数据，当数据量较大的时候需要耗费大量的时间依次读取图片。使用outputbuffer.py生成buff。以后的数据使用buff作为输入，
+读取较快。
+2.调用convolutional.py 训练验证
